@@ -1,3 +1,5 @@
+package com.bin;
+
 public enum Tokens {
     Reserve,
     Equal,
@@ -6,5 +8,6 @@ public enum Tokens {
     Multiply,
     Division,
     Identify,
-    Number
+    Number,
+    ERROR
 }
