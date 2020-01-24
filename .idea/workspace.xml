@@ -1,34 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3c8e974-f6da-49bd-a8b5-afdcf80d835d" name="Default Changelist" comment="" />
+    <list default="true" id="c3c8e974-f6da-49bd-a8b5-afdcf80d835d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/bin/PyTokens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bin/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PLA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/LexerGenMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/Tokens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bin/LexerGenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bin/LexerGenMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bin/Tokens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bin/sym.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsc/Lexer.flex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsc/Lexer2.flex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WjMSef6B81kcT1c9GJvkYlZbGR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JFlex.jar!/" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/files" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\com\bin" />
       <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\com\rsc" />
+      <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\com\bin" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LexerGenMain">
+    <configuration name="InputPyFileScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.view.InputPyFileScreen" />
+      <module name="PLA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LexerGenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LexerGenMain" />
       <module name="PLA" />
@@ -36,22 +80,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="LexerGenMain" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bin.LexerGenMain" />
       <module name="PLA" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rsc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rsc.Tester" />
+      <module name="PLA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rsc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.LexerGenMain" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Tester" />
+      <item itemvalue="Application.InputPyFileScreen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputPyFileScreen" />
         <item itemvalue="Application.LexerGenMain" />
       </list>
     </recent_temporary>
@@ -82,29 +144,85 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="639" y="278" key="FileChooserDialogImpl" timestamp="1579658665160">
+    <state x="997" y="190" key="#LexerGenMain" timestamp="1579810396730">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="639" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579658665160" />
-    <state width="1402" height="279" key="GridCell.Tab.0.bottom" timestamp="1579658910264">
+    <state x="997" y="190" key="#LexerGenMain/0.0.2560.1040@0.0.2560.1040" timestamp="1579810396730" />
+    <state x="996" y="158" key="#Project_Structure" timestamp="1579740928061">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1402" height="279" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579658910264" />
-    <state width="1402" height="279" key="GridCell.Tab.0.center" timestamp="1579658910264">
+    <state x="996" y="158" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1579740928061" />
+    <state x="734" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579810500114">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1402" height="279" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579658910264" />
-    <state width="1402" height="279" key="GridCell.Tab.0.left" timestamp="1579658910264">
+    <state x="734" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579810500114" />
+    <state x="1200" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579795709846">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1402" height="279" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579658910264" />
-    <state width="1402" height="279" key="GridCell.Tab.0.right" timestamp="1579658910264">
+    <state x="1200" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1579795709846" />
+    <state x="1264" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1579801738773">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1402" height="279" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579658910264" />
-    <state x="413" y="111" key="SettingsEditor" timestamp="1579658667118">
+    <state x="1264" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1579801738773" />
+    <state x="1009" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579809710806">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="413" y="111" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1579658667118" />
+    <state x="1009" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579809710806" />
+    <state x="611" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579807612435">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="611" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579807612435" />
+    <state x="639" y="278" key="FileChooserDialogImpl" timestamp="1579736315384">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="639" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579736315384" />
+    <state width="2517" height="287" key="GridCell.Tab.0.bottom" timestamp="1579836758104">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579836758104" />
+    <state width="2517" height="287" key="GridCell.Tab.0.center" timestamp="1579836758104">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579836758104" />
+    <state width="2517" height="287" key="GridCell.Tab.0.left" timestamp="1579836758104">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579836758104" />
+    <state width="2517" height="287" key="GridCell.Tab.0.right" timestamp="1579836758104">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579836758104" />
+    <state width="2517" height="347" key="GridCell.Tab.1.bottom" timestamp="1579831577427">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
+    <state width="2517" height="347" key="GridCell.Tab.1.center" timestamp="1579831577427">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
+    <state width="2517" height="347" key="GridCell.Tab.1.left" timestamp="1579831577427">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
+    <state width="2517" height="347" key="GridCell.Tab.1.right" timestamp="1579831577427">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
+    <state x="191" y="50" key="SettingsEditor" timestamp="1579741329563">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="191" y="50" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1579741329563" />
+    <state x="629" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1579795473838">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="629" y="360" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579795473838" />
+    <state x="457" y="263" width="847" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579799916322">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="457" y="263" width="847" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1040@0.0.2560.1040" timestamp="1579799916322" />
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579833688946">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1579833688946" />
   </component>
 </project>

@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JFlex" level="project" />
+    <orderEntry type="library" name="java-cup-bin-11b-20160615" level="project" />
   </component>
 </module>
