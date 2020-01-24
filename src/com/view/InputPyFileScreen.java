@@ -94,12 +94,26 @@ public class InputPyFileScreen extends JFrame {
                 try {
                     lexerAnal = new LexerAnal(new FileReader(file.getAbsoluteFile()), true);
                     PyTokens token;
-                    while ((token = lexerAnal.yylex()) != null)
-                        System.out.print(lexerAnal.yytext());
+                    while ((token = lexerAnal.yylex()) != null) {}
+                    System.out.println();
                     String result = lexerAnal.getReviewString();
                     textArea2.setText(result);
                     lexerAnal.printReview();
                     System.out.println(lexerAnal.getPyTokensTable());
+                    if (lexerAnal == null) {
+                        JOptionPane.showMessageDialog(null, "Need Lexer analyze first", "Lexer Error", JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
+                    DefaultTableModel model = (DefaultTableModel) tokenTable.getModel();
+                    Object newRow[] = new Object[PyTokens.values().length];
+
+                    Hashtable pyTokenTable = lexerAnal.getPyTokensTable();
+
+                    for (int i = 0; i < PyTokens.values().length ; i++) {
+                        newRow[i] = pyTokenTable.get(PyTokens.values()[i]);
+                    }
+                    if (model.getRowCount() > 0) model.removeRow(0);
+                    model.addRow(newRow);
                 } catch (IOException e2) {
                     e2.printStackTrace();
                 }
@@ -107,27 +121,14 @@ public class InputPyFileScreen extends JFrame {
         });
 
         btnAnalyzer2 = new JButton();
-        btnAnalyzer2.setText("Show Tokens");
+        btnAnalyzer2.setText("Clear");
         btnAnalyzer2.setBounds(765, 25, 150, 30);
         btnAnalyzer2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if (lexerAnal == null) {
-                    JOptionPane.showMessageDialog(null, "Need Lexer analyze first", "Lexer Error", JOptionPane.ERROR_MESSAGE);
-                    return;
-                }
                 DefaultTableModel model = (DefaultTableModel) tokenTable.getModel();
-                Object newRow[] = new Object[PyTokens.values().length];
-
-                Hashtable pyTokenTable = lexerAnal.getPyTokensTable();
-
-                for (int i = 0; i < PyTokens.values().length ; i++) {
-                    newRow[i] = pyTokenTable.get(PyTokens.values()[i]);
-                }
-
-                model.addRow(newRow);
-
-
+                if (model.getRowCount() > 0) model.removeRow(0);
+                textArea2.setText("");
             }
         });
 
@@ -156,7 +157,7 @@ public class InputPyFileScreen extends JFrame {
         for (int i = 0; i < tokens.length; i++) {
             columns[i] = tokens[i].toString();
         }
-        TableModel dataModel2 = new DefaultTableModel(rows, columns);
+        TableModel dataModel2 = new DefaultTableModel(null, columns);
 
 
         tokenTable = new JTable();

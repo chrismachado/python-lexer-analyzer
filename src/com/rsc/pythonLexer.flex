@@ -42,7 +42,7 @@ import java.util.Stack;
     public String getReviewString() {
         String result = "";
         for (Token token : this.tokens)
-           result += token.toString();
+           result += token.toString() + "\n";
         return result;
     }
 
