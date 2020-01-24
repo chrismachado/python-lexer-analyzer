@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3c8e974-f6da-49bd-a8b5-afdcf80d835d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/LexerGenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/LexerGenMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/sym.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/rsc/LexerAnal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/rsc/LexerAnal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/rsc/Tester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsc/LexerAnal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsc/LexerAnal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/files/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,22 +164,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="639" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579736315384" />
-    <state width="2517" height="287" key="GridCell.Tab.0.bottom" timestamp="1579838028032">
+    <state width="2517" height="287" key="GridCell.Tab.0.bottom" timestamp="1579838357417">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579838028032" />
-    <state width="2517" height="287" key="GridCell.Tab.0.center" timestamp="1579838028032">
+    <state width="2517" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357417" />
+    <state width="2517" height="287" key="GridCell.Tab.0.center" timestamp="1579838357416">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579838028032" />
-    <state width="2517" height="287" key="GridCell.Tab.0.left" timestamp="1579838028032">
+    <state width="2517" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357416" />
+    <state width="2517" height="287" key="GridCell.Tab.0.left" timestamp="1579838357416">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579838028032" />
-    <state width="2517" height="287" key="GridCell.Tab.0.right" timestamp="1579838028032">
+    <state width="2517" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357416" />
+    <state width="2517" height="287" key="GridCell.Tab.0.right" timestamp="1579838357416">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2517" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579838028032" />
+    <state width="2517" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357416" />
     <state width="2517" height="347" key="GridCell.Tab.1.bottom" timestamp="1579831577427">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
