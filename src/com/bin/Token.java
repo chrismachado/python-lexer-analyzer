@@ -1,9 +1,10 @@
 package com.bin;
 
-public class Tokens {
-    String value, type, line;
+public class Token {
+    String value, type;
+    int line;
 
-    public Tokens(String value, String type, String line) {
+    public Token(String value, String type, int line) {
         this.value = value;
         this.type = type;
         this.line = line;
@@ -17,12 +18,12 @@ public class Tokens {
         return type;
     }
 
-    public String getLine() {
+    public int getLine() {
         return line;
     }
 
     @Override
     public String toString() {
-        return this.value + "[" + this.type + "]";
+        return this.value + "[" + this.type + "," + this.line + "] ";
     }
 }
