@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3c8e974-f6da-49bd-a8b5-afdcf80d835d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/input2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/inputscreen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/lexergenmainterm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/pytokens.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/test3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/java_cup_bin_11b_20160615.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/java_cup_bin_11b_20160615.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/META-INF/PLA.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/LexerGenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/LexerGenMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/PyTokens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/PyTokens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/Token.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/rsc/LexerAnal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/rsc/LexerAnal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/files/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PLA/files/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/files/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bin/PyTokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bin/PyTokens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsc/LexerAnal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsc/LexerAnal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,10 +108,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tester" />
       <item itemvalue="Application.InputPyFileScreen" />
-      <item itemvalue="Application.LexerGenMain" />
       <item itemvalue="Application.LexerGenMain (1)" />
+      <item itemvalue="Application.LexerGenMain" />
+      <item itemvalue="Application.Tester" />
     </list>
     <recent_temporary>
       <list>

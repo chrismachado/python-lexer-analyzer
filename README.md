@@ -38,8 +38,8 @@ a table with the amount of each token. Like this.
 ![input1](images/input2.png)
 
 ### Authors
-- **Christiano Machado** @ christianomachado10@gmail.com
-- **Anderson Sales** @ andersonsales026@gmail.com 
+- **[Christiano Machado](https://github.com/chrismachado    )** @ christianomachado10@gmail.com
+- **[Anderson Sales](https://github.com/cafs92)** @ andersonsales026@gmail.com 
 
 ### Acknowledgments
 - **Professor Bruno Silva**
