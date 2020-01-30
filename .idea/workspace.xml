@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3c8e974-f6da-49bd-a8b5-afdcf80d835d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/input2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/inputscreen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/lexergenmainterm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pytokens.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/java_cup_bin_11b_20160615.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/java_cup_bin_11b_20160615.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/META-INF/PLA.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/LexerGenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/LexerGenMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/PyTokens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/PyTokens.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/bin/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/bin/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/rsc/LexerAnal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/rsc/LexerAnal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/com/view/InputPyFileScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PLA/files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/files/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/files/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PLA/files/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PLA/files/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bin/PyTokens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bin/PyTokens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsc/LexerAnal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsc/LexerAnal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsc/pythonLexer.flex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/view/InputPyFileScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/files/test2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,28 +54,42 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/files" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\files" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\com\rsc" />
       <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\com\bin" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="C:\Users\CHRISTIANO\IdeaProjects\PLA\src\files" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.InputPyFileScreen">
-    <configuration name="InputPyFileScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InputPyFileScreen" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.view.InputPyFileScreen" />
       <module name="PLA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LexerGenMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bin.LexerGenMain" />
+      <module name="PLA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,13 +131,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LexerGenMain" />
       <item itemvalue="Application.Tester" />
       <item itemvalue="Application.InputPyFileScreen" />
+      <item itemvalue="Application.LexerGenMain" />
+      <item itemvalue="Application.LexerGenMain (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InputPyFileScreen" />
+        <item itemvalue="Application.LexerGenMain (1)" />
         <item itemvalue="Application.LexerGenMain" />
       </list>
     </recent_temporary>
@@ -131,19 +168,24 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.flex" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="997" y="190" key="#LexerGenMain" timestamp="1579810396730">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="997" y="190" key="#LexerGenMain/0.0.2560.1040@0.0.2560.1040" timestamp="1579810396730" />
-    <state x="996" y="158" key="#Project_Structure" timestamp="1579740928061">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="324" y="67" width="800" height="684" key="#Project_Structure" timestamp="1580380866956">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state x="996" y="158" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1579740928061" />
-    <state x="734" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579810500114">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="324" y="67" width="800" height="684" key="#Project_Structure/52.27.1314.741@52.27.1314.741" timestamp="1580380866956" />
+    <state x="282" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579616722845">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state x="734" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579810500114" />
+    <state x="282" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.27.1314.741@52.27.1314.741" timestamp="1579616722845" />
     <state x="1200" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579795709846">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -152,58 +194,78 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1264" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1579801738773" />
-    <state x="1009" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579809710806">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="570" y="243" width="525" height="435" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579616721187">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state x="1009" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579809710806" />
+    <state x="570" y="243" width="525" height="435" key="#com.intellij.ide.util.TreeClassChooserDialog/52.27.1314.741@52.27.1314.741" timestamp="1579616721187" />
+    <state x="550" y="289" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580380846963">
+      <screen x="52" y="27" width="1314" height="741" />
+    </state>
+    <state x="550" y="289" width="308" height="223" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/52.27.1314.741@52.27.1314.741" timestamp="1580380846963" />
+    <state x="287" y="59" width="824" height="691" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1580380789784">
+      <screen x="52" y="27" width="1314" height="741" />
+    </state>
+    <state x="287" y="59" width="824" height="691" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/52.27.1314.741@52.27.1314.741" timestamp="1580380789784" />
     <state x="611" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579807612435">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="611" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579807612435" />
-    <state x="639" y="278" key="FileChooserDialogImpl" timestamp="1579736315384">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="380" y="225" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580380863845">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state x="639" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1579736315384" />
-    <state width="2517" height="287" key="GridCell.Tab.0.bottom" timestamp="1579838357417">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="380" y="225" width="424" height="491" key="FileChooserDialogImpl/52.27.1314.741@52.27.1314.741" timestamp="1580380863845" />
+    <state width="1268" height="209" key="GridCell.Tab.0.bottom" timestamp="1580382461420">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357417" />
-    <state width="2517" height="287" key="GridCell.Tab.0.center" timestamp="1579838357416">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="209" key="GridCell.Tab.0.bottom/52.27.1314.741@52.27.1314.741" timestamp="1580382461420" />
+    <state width="1268" height="209" key="GridCell.Tab.0.center" timestamp="1580382461418">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="287" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357416" />
-    <state width="2517" height="287" key="GridCell.Tab.0.left" timestamp="1579838357416">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="209" key="GridCell.Tab.0.center/52.27.1314.741@52.27.1314.741" timestamp="1580382461418" />
+    <state width="1268" height="209" key="GridCell.Tab.0.left" timestamp="1580382461417">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="287" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357416" />
-    <state width="2517" height="287" key="GridCell.Tab.0.right" timestamp="1579838357416">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="209" key="GridCell.Tab.0.left/52.27.1314.741@52.27.1314.741" timestamp="1580382461417" />
+    <state width="1268" height="209" key="GridCell.Tab.0.right" timestamp="1580382461419">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="287" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579838357416" />
-    <state width="2517" height="347" key="GridCell.Tab.1.bottom" timestamp="1579831577427">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="209" key="GridCell.Tab.0.right/52.27.1314.741@52.27.1314.741" timestamp="1580382461419" />
+    <state width="1268" height="199" key="GridCell.Tab.1.bottom" timestamp="1580150783615">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
-    <state width="2517" height="347" key="GridCell.Tab.1.center" timestamp="1579831577427">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="199" key="GridCell.Tab.1.bottom/52.27.1314.741@52.27.1314.741" timestamp="1580150783615" />
+    <state width="1268" height="199" key="GridCell.Tab.1.center" timestamp="1580150783614">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
-    <state width="2517" height="347" key="GridCell.Tab.1.left" timestamp="1579831577427">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="199" key="GridCell.Tab.1.center/52.27.1314.741@52.27.1314.741" timestamp="1580150783614" />
+    <state width="1268" height="199" key="GridCell.Tab.1.left" timestamp="1580150783613">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
-    <state width="2517" height="347" key="GridCell.Tab.1.right" timestamp="1579831577427">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="199" key="GridCell.Tab.1.left/52.27.1314.741@52.27.1314.741" timestamp="1580150783613" />
+    <state width="1268" height="199" key="GridCell.Tab.1.right" timestamp="1580150783614">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state width="2517" height="347" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1579831577427" />
-    <state x="191" y="50" key="SettingsEditor" timestamp="1579741329563">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state width="1268" height="199" key="GridCell.Tab.1.right/52.27.1314.741@52.27.1314.741" timestamp="1580150783614" />
+    <state x="150" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1580380743375">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state x="191" y="50" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1579741329563" />
-    <state x="629" y="360" key="com.intellij.ide.util.TipDialog" timestamp="1579795473838">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="150" y="31" width="1022" height="737" key="SettingsEditor/52.27.1314.741@52.27.1314.741" timestamp="1580380743375" />
+    <state x="375" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1580380249910">
+      <screen x="52" y="27" width="1314" height="741" />
     </state>
     <state x="629" y="360" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1579795473838" />
+    <state x="375" y="284" key="com.intellij.ide.util.TipDialog/52.27.1314.741@52.27.1314.741" timestamp="1580380249910" />
     <state x="457" y="263" width="847" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579799916322">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -212,5 +274,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="943" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1579833688946" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Lexer_Analyzer$InputPyFileScreen.ic" NAME="InputPyFileScreen Coverage Results" MODIFIED="1579616841026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.view.*</FILTER>
+    </SUITE>
   </component>
 </project>

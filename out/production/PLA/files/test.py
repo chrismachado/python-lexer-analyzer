@@ -1,6 +1,6 @@
 import socket
 
-HOST = '127.0.0.1'
+HOST = "127.0.0.1"
 PORT = 9000
 address = (HOST, PORT)
 serv_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

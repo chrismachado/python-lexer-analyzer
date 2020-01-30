@@ -92,9 +92,7 @@ import java.util.Stack;
             } catch (IllegalArgumentException e) {
                         return PyTokens.INVALID;
             }
-
         }
-
         return null;
     }
 

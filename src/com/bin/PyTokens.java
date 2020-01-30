@@ -10,7 +10,9 @@ public enum PyTokens {
     INVALID,
     INVALID_CHARACTER,
     INDENT,
+    DEDENT,
     BAD_ERROR
-
 }
+
+
 

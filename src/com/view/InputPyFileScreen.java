@@ -54,7 +54,7 @@ public class InputPyFileScreen extends JFrame {
 
         btnChooser = new JButton();
         btnChooser.setText("Open a File");
-        btnChooser.setBounds(175, 25, 150, 30);
+        btnChooser.setBounds(185, 25, 150, 30);
         btnChooser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
