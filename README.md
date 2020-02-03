@@ -42,6 +42,6 @@ a table with the amount of each token. Like this.
 - **[Anderson Sales](https://github.com/cafs92)** @ andersonsales026@gmail.com 
 
 ### Acknowledgments
-- **Professor Bruno Silva**
+- I'd like to thank **[Professor Bruno Correia da Silva](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4221396Y4)**.
 
 
